@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24F0A25518D33E8900698007 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F0A25418D33E8900698007 /* Foundation.framework */; };
+		24F0A25718D33E8900698007 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F0A25618D33E8900698007 /* CoreGraphics.framework */; };
+		24F0A25918D33E8900698007 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F0A25818D33E8900698007 /* UIKit.framework */; };
+		24F0A25F18D33E8900698007 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24F0A25D18D33E8900698007 /* InfoPlist.strings */; };
+		24F0A26118D33E8900698007 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0A26018D33E8900698007 /* main.m */; };
+		24F0A26518D33E8900698007 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0A26418D33E8900698007 /* AppDelegate.m */; };
+		24F0A26718D33E8900698007 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F0A26618D33E8900698007 /* Images.xcassets */; };
+		24F0A28518D33E9600698007 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0A28418D33E9600698007 /* ViewController.m */; };
+		24F0A28718D33EA400698007 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F0A28618D33EA400698007 /* iPhone.storyboard */; };
+		24F0A28A18D3411900698007 /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0A28918D3411900698007 /* Label.m */; };
+		24F0A28D18D35E3500698007 /* LayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0A28C18D35E3500698007 /* LayoutConstraint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24F0A25118D33E8900698007 /* Hidden View Auto Layout Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hidden View Auto Layout Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F0A25418D33E8900698007 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24F0A25618D33E8900698007 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24F0A25818D33E8900698007 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24F0A25C18D33E8900698007 /* Hidden View Auto Layout Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hidden View Auto Layout Test-Info.plist"; sourceTree = "<group>"; };
+		24F0A25E18D33E8900698007 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24F0A26018D33E8900698007 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24F0A26218D33E8900698007 /* Hidden View Auto Layout Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hidden View Auto Layout Test-Prefix.pch"; sourceTree = "<group>"; };
+		24F0A26318D33E8900698007 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24F0A26418D33E8900698007 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24F0A26618D33E8900698007 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		24F0A26D18D33E8900698007 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		24F0A28318D33E9600698007 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24F0A28418D33E9600698007 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24F0A28618D33EA400698007 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		24F0A28818D3411900698007 /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		24F0A28918D3411900698007 /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
+		24F0A28B18D35E3500698007 /* LayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutConstraint.h; sourceTree = "<group>"; };
+		24F0A28C18D35E3500698007 /* LayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutConstraint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24F0A24E18D33E8900698007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F0A25718D33E8900698007 /* CoreGraphics.framework in Frameworks */,
+				24F0A25918D33E8900698007 /* UIKit.framework in Frameworks */,
+				24F0A25518D33E8900698007 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24F0A24818D33E8900698007 = {
+			isa = PBXGroup;
+			children = (
+				24F0A25A18D33E8900698007 /* Hidden View Auto Layout Test */,
+				24F0A25318D33E8900698007 /* Frameworks */,
+				24F0A25218D33E8900698007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24F0A25218D33E8900698007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24F0A25118D33E8900698007 /* Hidden View Auto Layout Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24F0A25318D33E8900698007 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24F0A25418D33E8900698007 /* Foundation.framework */,
+				24F0A25618D33E8900698007 /* CoreGraphics.framework */,
+				24F0A25818D33E8900698007 /* UIKit.framework */,
+				24F0A26D18D33E8900698007 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24F0A25A18D33E8900698007 /* Hidden View Auto Layout Test */ = {
+			isa = PBXGroup;
+			children = (
+				24F0A26318D33E8900698007 /* AppDelegate.h */,
+				24F0A26418D33E8900698007 /* AppDelegate.m */,
+				24F0A26618D33E8900698007 /* Images.xcassets */,
+				24F0A25B18D33E8900698007 /* Supporting Files */,
+				24F0A28318D33E9600698007 /* ViewController.h */,
+				24F0A28418D33E9600698007 /* ViewController.m */,
+				24F0A28618D33EA400698007 /* iPhone.storyboard */,
+				24F0A28818D3411900698007 /* Label.h */,
+				24F0A28918D3411900698007 /* Label.m */,
+				24F0A28B18D35E3500698007 /* LayoutConstraint.h */,
+				24F0A28C18D35E3500698007 /* LayoutConstraint.m */,
+			);
+			path = "Hidden View Auto Layout Test";
+			sourceTree = "<group>";
+		};
+		24F0A25B18D33E8900698007 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24F0A25C18D33E8900698007 /* Hidden View Auto Layout Test-Info.plist */,
+				24F0A25D18D33E8900698007 /* InfoPlist.strings */,
+				24F0A26018D33E8900698007 /* main.m */,
+				24F0A26218D33E8900698007 /* Hidden View Auto Layout Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24F0A25018D33E8900698007 /* Hidden View Auto Layout Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F0A27D18D33E8900698007 /* Build configuration list for PBXNativeTarget "Hidden View Auto Layout Test" */;
+			buildPhases = (
+				24F0A24D18D33E8900698007 /* Sources */,
+				24F0A24E18D33E8900698007 /* Frameworks */,
+				24F0A24F18D33E8900698007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hidden View Auto Layout Test";
+			productName = "Hidden View Auto Layout Test";
+			productReference = 24F0A25118D33E8900698007 /* Hidden View Auto Layout Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24F0A24918D33E8900698007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Daniel Tull";
+			};
+			buildConfigurationList = 24F0A24C18D33E8900698007 /* Build configuration list for PBXProject "Hidden View Auto Layout Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24F0A24818D33E8900698007;
+			productRefGroup = 24F0A25218D33E8900698007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24F0A25018D33E8900698007 /* Hidden View Auto Layout Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24F0A24F18D33E8900698007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F0A25F18D33E8900698007 /* InfoPlist.strings in Resources */,
+				24F0A28718D33EA400698007 /* iPhone.storyboard in Resources */,
+				24F0A26718D33E8900698007 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24F0A24D18D33E8900698007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F0A28518D33E9600698007 /* ViewController.m in Sources */,
+				24F0A26518D33E8900698007 /* AppDelegate.m in Sources */,
+				24F0A28D18D35E3500698007 /* LayoutConstraint.m in Sources */,
+				24F0A28A18D3411900698007 /* Label.m in Sources */,
+				24F0A26118D33E8900698007 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24F0A25D18D33E8900698007 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24F0A25E18D33E8900698007 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24F0A27B18D33E8900698007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24F0A27C18D33E8900698007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24F0A27E18D33E8900698007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hidden View Auto Layout Test/Hidden View Auto Layout Test-Prefix.pch";
+				INFOPLIST_FILE = "Hidden View Auto Layout Test/Hidden View Auto Layout Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24F0A27F18D33E8900698007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hidden View Auto Layout Test/Hidden View Auto Layout Test-Prefix.pch";
+				INFOPLIST_FILE = "Hidden View Auto Layout Test/Hidden View Auto Layout Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24F0A24C18D33E8900698007 /* Build configuration list for PBXProject "Hidden View Auto Layout Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F0A27B18D33E8900698007 /* Debug */,
+				24F0A27C18D33E8900698007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24F0A27D18D33E8900698007 /* Build configuration list for PBXNativeTarget "Hidden View Auto Layout Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F0A27E18D33E8900698007 /* Debug */,
+				24F0A27F18D33E8900698007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24F0A24918D33E8900698007 /* Project object */;
+}
