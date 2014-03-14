@@ -20,39 +20,23 @@
                                 <rect key="frame" x="20" y="233" width="280" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="vQI-Ya-Z22" customClass="Label">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="vQI-Ya-Z22">
                                         <rect key="frame" x="0.0" y="0.0" width="280" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="highlightedColor"/>
-                                        <connections>
-                                            <outletCollection property="collapsableConstraints" destination="hau-UX-soU" id="faO-OH-LFQ"/>
-                                            <outletCollection property="collapsableConstraints" destination="s3i-gU-TC6" id="bj2-ee-2Y9"/>
-                                            <outletCollection property="collapsableConstraints" destination="jn3-K8-cFt" id="3wE-KM-lit"/>
-                                        </connections>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="h6b-CD-NZm" customClass="Label">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="h6b-CD-NZm">
                                         <rect key="frame" x="0.0" y="41" width="280" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="highlightedColor"/>
-                                        <connections>
-                                            <outletCollection property="collapsableConstraints" destination="hau-UX-soU" id="rww-wK-b59"/>
-                                            <outletCollection property="collapsableConstraints" destination="1Wm-CP-lKG" id="pHC-L9-uw1"/>
-                                            <outletCollection property="collapsableConstraints" destination="pQJ-w2-to1" id="gg6-l7-lkH"/>
-                                            <outletCollection property="collapsableConstraints" destination="wcS-FW-OzK" id="2ok-SG-oxA"/>
-                                        </connections>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="qjX-kf-tyr" customClass="Label">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="qjX-kf-tyr">
                                         <rect key="frame" x="0.0" y="82" width="280" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="highlightedColor"/>
-                                        <connections>
-                                            <outletCollection property="collapsableConstraints" destination="1Wm-CP-lKG" id="c0E-fJ-9JS"/>
-                                            <outletCollection property="collapsableConstraints" destination="s3i-gU-TC6" id="wXI-md-PWp"/>
-                                            <outletCollection property="collapsableConstraints" destination="Cn1-ky-ltd" id="y3Z-rs-oxn"/>
-                                        </connections>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>

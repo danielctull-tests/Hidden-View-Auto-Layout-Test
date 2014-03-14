@@ -16,7 +16,6 @@
 		24F0A26718D33E8900698007 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F0A26618D33E8900698007 /* Images.xcassets */; };
 		24F0A28518D33E9600698007 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0A28418D33E9600698007 /* ViewController.m */; };
 		24F0A28718D33EA400698007 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F0A28618D33EA400698007 /* iPhone.storyboard */; };
-		24F0A28A18D3411900698007 /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0A28918D3411900698007 /* Label.m */; };
 		24F0A28D18D35E3500698007 /* LayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0A28C18D35E3500698007 /* LayoutConstraint.m */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +35,6 @@
 		24F0A28318D33E9600698007 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		24F0A28418D33E9600698007 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		24F0A28618D33EA400698007 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
-		24F0A28818D3411900698007 /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
-		24F0A28918D3411900698007 /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
 		24F0A28B18D35E3500698007 /* LayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutConstraint.h; sourceTree = "<group>"; };
 		24F0A28C18D35E3500698007 /* LayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutConstraint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,8 +91,6 @@
 				24F0A28318D33E9600698007 /* ViewController.h */,
 				24F0A28418D33E9600698007 /* ViewController.m */,
 				24F0A28618D33EA400698007 /* iPhone.storyboard */,
-				24F0A28818D3411900698007 /* Label.h */,
-				24F0A28918D3411900698007 /* Label.m */,
 				24F0A28B18D35E3500698007 /* LayoutConstraint.h */,
 				24F0A28C18D35E3500698007 /* LayoutConstraint.m */,
 			);
@@ -180,7 +175,6 @@
 				24F0A28518D33E9600698007 /* ViewController.m in Sources */,
 				24F0A26518D33E8900698007 /* AppDelegate.m in Sources */,
 				24F0A28D18D35E3500698007 /* LayoutConstraint.m in Sources */,
-				24F0A28A18D3411900698007 /* Label.m in Sources */,
 				24F0A26118D33E8900698007 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

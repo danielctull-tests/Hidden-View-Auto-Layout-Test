@@ -8,26 +8,15 @@
 
 #import "LayoutConstraint.h"
 
-@interface LayoutConstraint ()
-@property (nonatomic) CGFloat initialConstant;
-@end
-
 @implementation LayoutConstraint
 
-- (void)awakeFromNib {
-	[super awakeFromNib];
-	self.initialConstant = self.constant;
-}
+- (CGFloat)constant {
 
-- (void)setHidden:(BOOL)hidden {
-	_hidden = hidden;
+	UIView *firstItem = self.firstItem;
+	UIView *secondItem = self.secondItem;
+	if (firstItem.hidden || secondItem.hidden) return 0.0f;
 
-	static dispatch_once_t onceToken;
-	dispatch_once(&onceToken, ^{
-		self.initialConstant = self.constant;
-	});
-
-	self.constant = _hidden ? 0.0f : self.initialConstant;
+	return [super constant];
 }
 
 @end
