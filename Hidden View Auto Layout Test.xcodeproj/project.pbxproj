@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		241A02FD18D70B9F0090CEB9 /* UIView+HideConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 241A02FC18D70B9F0090CEB9 /* UIView+HideConstraints.m */; };
+		241A030618D71BD60090CEB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241A030518D71BD60090CEB9 /* ViewController.m */; };
 		24F0A25518D33E8900698007 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F0A25418D33E8900698007 /* Foundation.framework */; };
 		24F0A25718D33E8900698007 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F0A25618D33E8900698007 /* CoreGraphics.framework */; };
 		24F0A25918D33E8900698007 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F0A25818D33E8900698007 /* UIKit.framework */; };
@@ -26,6 +27,8 @@
 /* Begin PBXFileReference section */
 		241A02FB18D70B9F0090CEB9 /* UIView+HideConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HideConstraints.h"; sourceTree = "<group>"; };
 		241A02FC18D70B9F0090CEB9 /* UIView+HideConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HideConstraints.m"; sourceTree = "<group>"; };
+		241A030418D71BD60090CEB9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		241A030518D71BD60090CEB9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		24F0A25118D33E8900698007 /* Hidden View Auto Layout Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hidden View Auto Layout Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F0A25418D33E8900698007 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24F0A25618D33E8900698007 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -101,6 +104,8 @@
 				24F0A25B18D33E8900698007 /* Supporting Files */,
 				24F0A28318D33E9600698007 /* CollectionViewController.h */,
 				24F0A28418D33E9600698007 /* CollectionViewController.m */,
+				241A030418D71BD60090CEB9 /* ViewController.h */,
+				241A030518D71BD60090CEB9 /* ViewController.m */,
 				24F0A28618D33EA400698007 /* iPhone.storyboard */,
 				24F0A28B18D35E3500698007 /* LayoutConstraint.h */,
 				24F0A28C18D35E3500698007 /* LayoutConstraint.m */,
@@ -193,6 +198,7 @@
 			files = (
 				24F0A29518D381F300698007 /* Item.m in Sources */,
 				24F0A29218D381BB00698007 /* Cell.m in Sources */,
+				241A030618D71BD60090CEB9 /* ViewController.m in Sources */,
 				24F0A28518D33E9600698007 /* CollectionViewController.m in Sources */,
 				241A02FD18D70B9F0090CEB9 /* UIView+HideConstraints.m in Sources */,
 				24F0A26518D33E8900698007 /* AppDelegate.m in Sources */,
