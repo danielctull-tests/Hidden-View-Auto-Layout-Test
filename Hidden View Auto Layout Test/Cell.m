@@ -31,22 +31,19 @@
 - (void)setHeader:(NSString *)header {
 	_header = [header copy];
 	self.headerLabel.text = _header;
-	self.headerLabel.hidden = (_header.length == 0);
-	[self.headerLabel dct_hideConstraints];
+	self.headerLabel.dct_collapsed = (_header.length == 0);
 }
 
 - (void)setBody:(NSString *)body {
 	_body = [body copy];
 	self.bodyLabel.text = _body;
-	self.bodyLabel.hidden = (_body.length == 0);
-	[self.bodyLabel dct_hideConstraints];
+	self.bodyLabel.dct_collapsed = (_body.length == 0);
 }
 
 - (void)setDate:(NSString *)date {
 	_date = [date copy];
 	self.dateLabel.text = _date;
-	self.dateLabel.hidden = (_date.length == 0);
-	[self.dateLabel dct_hideConstraints];
+	self.dateLabel.dct_collapsed = (_date.length == 0);
 }
 
 @end

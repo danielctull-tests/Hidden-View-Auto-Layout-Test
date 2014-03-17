@@ -38,13 +38,12 @@
 
 	if (label.text) {
 		label.text = nil;
-		label.hidden = YES;
+		label.dct_collapsed = YES;
 	} else {
 		label.text = text;
-		label.hidden = NO;
+		label.dct_collapsed = NO;
 	}
 
-	[label dct_hideConstraints];
 }
 
 @end

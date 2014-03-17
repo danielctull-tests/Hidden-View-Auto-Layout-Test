@@ -12,12 +12,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="4XH-Og-UEp" kind="relationship" relationship="rootViewController" id="ZLZ-TZ-YOi"/>
+                        <segue destination="fM5-Am-14f" kind="relationship" relationship="rootViewController" id="Ni9-GN-5Ba"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0r8-Fp-Ubs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-404" y="353"/>
+            <point key="canvasLocation" x="-852" y="727"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="P1d-ES-MvQ">
@@ -44,6 +44,47 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="izC-gI-c4w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="152" y="350"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="L6a-RT-t4Z">
+            <objects>
+                <viewController id="fM5-Am-14f" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vdh-IH-Kiy"/>
+                        <viewControllerLayoutGuide type="bottom" id="yg0-VF-Vga"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TcU-dM-keK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eu4-H6-3s2">
+                                <rect key="frame" x="107" y="295" width="106" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Colleciton View">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="4XH-Og-UEp" kind="push" id="UFk-PY-8P4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45Y-Eh-MCK">
+                                <rect key="frame" x="107" y="352" width="104" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View Controller">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jPv-ku-GV8" kind="push" id="kTj-UL-Hiz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bCR-AZ-XlN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V7e-9r-k3g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-354" y="685"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KYe-t5-c3v">
@@ -143,6 +184,7 @@
                             <constraint firstAttribute="trailing" secondItem="H5D-xh-hh8" secondAttribute="trailing" constant="20" id="zOL-hT-GnF"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="7sD-2f-o2T"/>
                     <connections>
                         <outlet property="label1" destination="n3r-km-DBQ" id="My6-mH-wWi"/>
                         <outlet property="label2" destination="nCi-mx-5hf" id="8yS-Mo-wFD"/>
@@ -151,7 +193,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5pc-8G-Bhq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-482" y="663"/>
+            <point key="canvasLocation" x="152" y="1053"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

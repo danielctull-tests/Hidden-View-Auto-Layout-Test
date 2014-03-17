@@ -9,7 +9,5 @@
 @import UIKit;
 
 @interface UIView (HideConstraints)
-
-- (void)dct_hideConstraints;
-
+@property (nonatomic) BOOL dct_collapsed;
 @end

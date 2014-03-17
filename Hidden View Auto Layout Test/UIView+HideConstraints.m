@@ -8,8 +8,19 @@
 
 #import "UIView+HideConstraints.h"
 #import "LayoutConstraint.h"
+#import <objc/runtime.h>
 
 @implementation UIView (HideConstraints)
+
+- (void)setDct_collapsed:(BOOL)dct_collapsed {
+	objc_setAssociatedObject(self, @selector(dct_collapsed), @(dct_collapsed), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+	[self dct_hideConstraints];
+}
+
+- (BOOL)dct_collapsed {
+    NSNumber *collapsed = objc_getAssociatedObject(self, @selector(dct_collapsed));
+	return [collapsed boolValue];
+}
 
 - (void)dct_hideConstraints {
 	[self dct_hideConstraintsForView:self];
@@ -34,7 +45,7 @@
 
 		if (![otherItem isKindOfClass:[UIView class]]) continue;
 
-		constraint.hidden = (view.hidden || otherItem.hidden);
+		constraint.collapsed = (view.dct_collapsed || otherItem.dct_collapsed);
 	}
 
 	[self.superview dct_hideConstraintsForView:view];

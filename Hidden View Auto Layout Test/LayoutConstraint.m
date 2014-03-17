@@ -19,9 +19,9 @@
 	self.originalConstant = self.constant;
 }
 
-- (void)setHidden:(BOOL)hidden {
-	_hidden = hidden;
-	self.constant = _hidden ? 0.0f : self.originalConstant;
+- (void)setCollapsed:(BOOL)collapsed {
+	_collapsed = collapsed;
+	self.constant = _collapsed ? 0.0f : self.originalConstant;
 }
 
 @end

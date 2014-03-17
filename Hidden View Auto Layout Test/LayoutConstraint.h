@@ -9,5 +9,5 @@
 @import UIKit;
 
 @interface LayoutConstraint : NSLayoutConstraint
-@property (nonatomic) BOOL hidden;
+@property (nonatomic) BOOL collapsed;
 @end
