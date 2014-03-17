@@ -27,8 +27,8 @@
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Date" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="334" translatesAutoresizingMaskIntoConstraints="NO" id="Xy1-ZL-XbO" userLabel="Date">
-                        <rect key="frame" x="15" y="80" width="334" height="18"/>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="334" translatesAutoresizingMaskIntoConstraints="NO" id="Xy1-ZL-XbO" userLabel="Date">
+                        <rect key="frame" x="15" y="77" width="334" height="21"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -39,7 +39,7 @@
             </view>
             <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="Xy1-ZL-XbO" firstAttribute="top" secondItem="Y4p-Yc-LjK" secondAttribute="bottom" constant="5" id="1bS-Fk-GMk" customClass="LayoutConstraint"/>
+                <constraint firstItem="Xy1-ZL-XbO" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Y4p-Yc-LjK" secondAttribute="bottom" constant="5" id="1bS-Fk-GMk" customClass="LayoutConstraint"/>
                 <constraint firstItem="Y4p-Yc-LjK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Yeo-Bm-o7N" secondAttribute="top" constant="5" id="6pe-0v-fg9" customClass="LayoutConstraint"/>
                 <constraint firstItem="Xy1-ZL-XbO" firstAttribute="leading" secondItem="Yeo-Bm-o7N" secondAttribute="leading" constant="15" id="B23-3G-WWG"/>
                 <constraint firstAttribute="trailing" secondItem="Y4p-Yc-LjK" secondAttribute="trailing" constant="15" id="LIJ-e7-Sig"/>
@@ -47,13 +47,13 @@
                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Y4p-Yc-LjK" secondAttribute="bottom" constant="5" id="Rsn-1O-5IO" customClass="LayoutConstraint"/>
                 <constraint firstAttribute="trailing" secondItem="Xy1-ZL-XbO" secondAttribute="trailing" constant="15" id="VgT-bY-BDb"/>
                 <constraint firstItem="Xy1-ZL-XbO" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Yeo-Bm-o7N" secondAttribute="top" constant="15" id="XSK-Gt-UaV" customClass="LayoutConstraint"/>
-                <constraint firstAttribute="bottom" secondItem="Xy1-ZL-XbO" secondAttribute="bottom" constant="15" id="ZvF-8e-lq4" customClass="LayoutConstraint"/>
-                <constraint firstItem="Y4p-Yc-LjK" firstAttribute="top" secondItem="IUk-zj-hMV" secondAttribute="bottom" constant="15" id="cUg-RH-8Lm" customClass="LayoutConstraint"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Xy1-ZL-XbO" secondAttribute="bottom" constant="15" id="ZvF-8e-lq4" customClass="LayoutConstraint"/>
+                <constraint firstItem="Y4p-Yc-LjK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="IUk-zj-hMV" secondAttribute="bottom" constant="15" id="cUg-RH-8Lm" customClass="LayoutConstraint"/>
                 <constraint firstItem="Y4p-Yc-LjK" firstAttribute="leading" secondItem="Yeo-Bm-o7N" secondAttribute="leading" constant="15" id="gr4-yj-yLE"/>
                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="IUk-zj-hMV" secondAttribute="bottom" constant="15" id="mbT-uX-8LV" customClass="LayoutConstraint"/>
                 <constraint firstItem="IUk-zj-hMV" firstAttribute="leading" secondItem="Yeo-Bm-o7N" secondAttribute="leading" constant="15" id="q6d-TH-EjR"/>
                 <constraint firstAttribute="trailing" secondItem="IUk-zj-hMV" secondAttribute="trailing" constant="15" id="qhk-gM-Jj1"/>
-                <constraint firstItem="IUk-zj-hMV" firstAttribute="top" secondItem="Yeo-Bm-o7N" secondAttribute="top" constant="15" id="ws1-LS-Daf" customClass="LayoutConstraint"/>
+                <constraint firstItem="IUk-zj-hMV" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Yeo-Bm-o7N" secondAttribute="top" constant="15" id="ws1-LS-Daf" customClass="LayoutConstraint"/>
             </constraints>
             <size key="customSize" width="364" height="186"/>
             <connections>
