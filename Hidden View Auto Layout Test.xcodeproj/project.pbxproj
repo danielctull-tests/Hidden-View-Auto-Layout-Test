@@ -17,6 +17,9 @@
 		24F0A28518D33E9600698007 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0A28418D33E9600698007 /* ViewController.m */; };
 		24F0A28718D33EA400698007 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F0A28618D33EA400698007 /* iPhone.storyboard */; };
 		24F0A28D18D35E3500698007 /* LayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0A28C18D35E3500698007 /* LayoutConstraint.m */; };
+		24F0A28F18D37EC300698007 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F0A28E18D37EC300698007 /* Cell.xib */; };
+		24F0A29218D381BB00698007 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0A29118D381BB00698007 /* Cell.m */; };
+		24F0A29518D381F300698007 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0A29418D381F300698007 /* Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,11 @@
 		24F0A28618D33EA400698007 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
 		24F0A28B18D35E3500698007 /* LayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutConstraint.h; sourceTree = "<group>"; };
 		24F0A28C18D35E3500698007 /* LayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutConstraint.m; sourceTree = "<group>"; };
+		24F0A28E18D37EC300698007 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		24F0A29018D381BB00698007 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		24F0A29118D381BB00698007 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		24F0A29318D381F300698007 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		24F0A29418D381F300698007 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,11 @@
 				24F0A28618D33EA400698007 /* iPhone.storyboard */,
 				24F0A28B18D35E3500698007 /* LayoutConstraint.h */,
 				24F0A28C18D35E3500698007 /* LayoutConstraint.m */,
+				24F0A28E18D37EC300698007 /* Cell.xib */,
+				24F0A29018D381BB00698007 /* Cell.h */,
+				24F0A29118D381BB00698007 /* Cell.m */,
+				24F0A29318D381F300698007 /* Item.h */,
+				24F0A29418D381F300698007 /* Item.m */,
 			);
 			path = "Hidden View Auto Layout Test";
 			sourceTree = "<group>";
@@ -160,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24F0A25F18D33E8900698007 /* InfoPlist.strings in Resources */,
+				24F0A28F18D37EC300698007 /* Cell.xib in Resources */,
 				24F0A28718D33EA400698007 /* iPhone.storyboard in Resources */,
 				24F0A26718D33E8900698007 /* Images.xcassets in Resources */,
 			);
@@ -172,6 +186,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F0A29518D381F300698007 /* Item.m in Sources */,
+				24F0A29218D381BB00698007 /* Cell.m in Sources */,
 				24F0A28518D33E9600698007 /* ViewController.m in Sources */,
 				24F0A26518D33E8900698007 /* AppDelegate.m in Sources */,
 				24F0A28D18D35E3500698007 /* LayoutConstraint.m in Sources */,

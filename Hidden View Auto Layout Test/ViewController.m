@@ -7,11 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "Cell.h"
+#import "Item.h"
 
-@interface ViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *label1;
-@property (weak, nonatomic) IBOutlet UILabel *label2;
-@property (weak, nonatomic) IBOutlet UILabel *label3;
+@interface ViewController () <UICollectionViewDelegateFlowLayout>
+@property (nonatomic) NSArray *items;
 @end
 
 @implementation ViewController
@@ -19,30 +19,63 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 
-	self.label1.text = @"1. Label";
-	self.label2.text = @"2. Label";
-	self.label3.text = @"3. Label";
+	self.items = @[
+		[[Item alloc] initWithHeader:nil body:@"body 1" date:@"date 1"],
+		[[Item alloc] initWithHeader:@"header 2" body:@"body 2" date:nil],
+		[[Item alloc] initWithHeader:@"header 3" body:@"body 3" date:@"date 3"],
+		[[Item alloc] initWithHeader:nil body:nil date:@"date 4"],
+		[[Item alloc] initWithHeader:nil body:@"body 5" date:nil],
+		[[Item alloc] initWithHeader:nil body:@"body 6" date:nil],
+		[[Item alloc] initWithHeader:@"header 7" body:@"body 7" date:@"date 7"],
+		[[Item alloc] initWithHeader:@"header 8" body:@"body 8" date:@"date 8"],
+		[[Item alloc] initWithHeader:@"header 9" body:@"body 9" date:@"date 9"],
+		[[Item alloc] initWithHeader:@"header 10" body:@"body 10" date:@"date 10"],
+		[[Item alloc] initWithHeader:@"header 11" body:@"body 11" date:@"date 11"]
+	];
+
+	UINib *nib = [UINib nibWithNibName:NSStringFromClass([Cell class]) bundle:nil];
+	[self.collectionView registerNib:nib forCellWithReuseIdentifier:NSStringFromClass([Cell class])];
 }
 
-- (IBAction)toggelText1:(id)sender {
-	[self toggleLabel:self.label1 text:@"Test text 1"];
-}
-- (IBAction)toggleText2:(id)sender {
-	[self toggleLabel:self.label2 text:@"Test text 2"];
-}
-- (IBAction)toggleText3:(id)sender {
-	[self toggleLabel:self.label3 text:@"Test text 3"];
+- (void)setupCell:(Cell *)cell forIndexPath:(NSIndexPath *)indexPath {
+	Item *item = [self.items objectAtIndex:indexPath.item];
+	cell.header = item.header;
+	cell.body = item.body;
+	cell.date = item.date;
+	NSLog(@"%@:%@ %@", self, NSStringFromSelector(_cmd), item);
 }
 
-- (void)toggleLabel:(UILabel *)label text:(NSString *)text {
+#pragma mark - UICollectionViewDelegateFlowLayout
 
-	if (label.text) {
-		label.text = nil;
-		label.hidden = YES;
-	} else {
-		label.text = text;
-		label.hidden = NO;
-	}
+- (CGSize)collectionView:(UICollectionView *)collectionView
+				  layout:(UICollectionViewLayout *)collectionViewLayout
+  sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+
+	Cell *cell = [Cell sizingCell];
+	[self setupCell:cell forIndexPath:indexPath];
+	CGSize size = [cell systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
+	size.width = collectionView.bounds.size.width;
+	return size;
+}
+
+#pragma mark - UICollectionViewDataSource
+
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
+	return 1;
+}
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+	return self.items.count;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
+				  cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+
+	Cell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([Cell class])
+														   forIndexPath:indexPath];
+	[self setupCell:cell forIndexPath:indexPath];
+	return cell;
+
 }
 
 @end
