@@ -23,7 +23,7 @@
 		[[Item alloc] initWithHeader:nil body:@"body 1" date:@"date 1"],
 		[[Item alloc] initWithHeader:@"header 2" body:@"body 2" date:nil],
 		[[Item alloc] initWithHeader:@"header 3" body:@"body 3" date:@"date 3"],
-		[[Item alloc] initWithHeader:nil body:nil date:@"date 4"],
+		[[Item alloc] initWithHeader:@"header 4" body:nil date:@"date 4"],
 		[[Item alloc] initWithHeader:nil body:@"body 5" date:nil],
 		[[Item alloc] initWithHeader:nil body:@"body 6" date:nil],
 		[[Item alloc] initWithHeader:@"header 7" body:@"body 7" date:@"date 7"],
@@ -42,7 +42,6 @@
 	cell.header = item.header;
 	cell.body = item.body;
 	cell.date = item.date;
-	NSLog(@"%@:%@ %@", self, NSStringFromSelector(_cmd), item);
 }
 
 #pragma mark - UICollectionViewDelegateFlowLayout

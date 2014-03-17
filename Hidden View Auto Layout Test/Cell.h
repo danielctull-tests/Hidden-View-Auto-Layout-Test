@@ -15,4 +15,5 @@
 @property (nonatomic, copy) NSString *header;
 @property (nonatomic, copy) NSString *date;
 @property (nonatomic, copy) NSString *body;
+
 @end

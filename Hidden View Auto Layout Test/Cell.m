@@ -7,6 +7,7 @@
 //
 
 #import "Cell.h"
+#import "UIView+HideConstraints.h"
 
 @interface Cell ()
 @property (nonatomic, weak) IBOutlet UILabel *headerLabel;
@@ -30,19 +31,22 @@
 - (void)setHeader:(NSString *)header {
 	_header = [header copy];
 	self.headerLabel.text = _header;
-	self.headerLabel.hidden = (_header == nil);
+	self.headerLabel.hidden = (_header.length == 0);
+	[self.headerLabel dct_hideConstraints];
 }
 
 - (void)setBody:(NSString *)body {
 	_body = [body copy];
 	self.bodyLabel.text = _body;
-	self.bodyLabel.hidden = (_body == nil);
+	self.bodyLabel.hidden = (_body.length == 0);
+	[self.bodyLabel dct_hideConstraints];
 }
 
 - (void)setDate:(NSString *)date {
 	_date = [date copy];
 	self.dateLabel.text = _date;
-	self.dateLabel.hidden = (_date == nil);
+	self.dateLabel.hidden = (_date.length == 0);
+	[self.dateLabel dct_hideConstraints];
 }
 
 @end

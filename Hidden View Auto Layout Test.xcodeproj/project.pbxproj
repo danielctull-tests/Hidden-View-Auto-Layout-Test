@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		241A02FD18D70B9F0090CEB9 /* UIView+HideConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 241A02FC18D70B9F0090CEB9 /* UIView+HideConstraints.m */; };
 		24F0A25518D33E8900698007 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F0A25418D33E8900698007 /* Foundation.framework */; };
 		24F0A25718D33E8900698007 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F0A25618D33E8900698007 /* CoreGraphics.framework */; };
 		24F0A25918D33E8900698007 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F0A25818D33E8900698007 /* UIKit.framework */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		241A02FB18D70B9F0090CEB9 /* UIView+HideConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HideConstraints.h"; sourceTree = "<group>"; };
+		241A02FC18D70B9F0090CEB9 /* UIView+HideConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HideConstraints.m"; sourceTree = "<group>"; };
 		24F0A25118D33E8900698007 /* Hidden View Auto Layout Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hidden View Auto Layout Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F0A25418D33E8900698007 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24F0A25618D33E8900698007 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -106,6 +109,8 @@
 				24F0A29118D381BB00698007 /* Cell.m */,
 				24F0A29318D381F300698007 /* Item.h */,
 				24F0A29418D381F300698007 /* Item.m */,
+				241A02FB18D70B9F0090CEB9 /* UIView+HideConstraints.h */,
+				241A02FC18D70B9F0090CEB9 /* UIView+HideConstraints.m */,
 			);
 			path = "Hidden View Auto Layout Test";
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 				24F0A29518D381F300698007 /* Item.m in Sources */,
 				24F0A29218D381BB00698007 /* Cell.m in Sources */,
 				24F0A28518D33E9600698007 /* ViewController.m in Sources */,
+				241A02FD18D70B9F0090CEB9 /* UIView+HideConstraints.m in Sources */,
 				24F0A26518D33E8900698007 /* AppDelegate.m in Sources */,
 				24F0A28D18D35E3500698007 /* LayoutConstraint.m in Sources */,
 				24F0A26118D33E8900698007 /* main.m in Sources */,
@@ -324,6 +330,7 @@
 				24F0A27F18D33E8900698007 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
