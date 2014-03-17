@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 Daniel Tull. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "CollectionViewController.h"
 #import "Cell.h"
 #import "Item.h"
 
-@interface ViewController () <UICollectionViewDelegateFlowLayout>
+@interface CollectionViewController () <UICollectionViewDelegateFlowLayout>
 @property (nonatomic) NSArray *items;
 @end
 
-@implementation ViewController
+@implementation CollectionViewController
 
 - (void)viewDidLoad {
 	[super viewDidLoad];

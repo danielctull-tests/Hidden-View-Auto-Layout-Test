@@ -8,5 +8,5 @@
 
 @import UIKit;
 
-@interface ViewController : UICollectionViewController
+@interface CollectionViewController : UICollectionViewController
 @end
